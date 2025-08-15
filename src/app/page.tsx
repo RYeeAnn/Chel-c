@@ -28,19 +28,19 @@ export default function Home() {
         <div className="max-w-7xl mx-auto text-center">
           <div className="relative mb-8">
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-              Never Miss a
+              Your Appointments
               <span className="block bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Customer Call
+                Book Themselves
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Chel-c is your AI receptionist that answers calls, understands customer needs, and books appointments automatically when you can't.
+              Chel-c doesn't just answer calls—it automatically books appointments directly into your calendar. No more manual entry, no more missed bookings.
             </p>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
             <Link href="/demo" className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-blue-600 hover:to-purple-700 transition-all transform hover:scale-105">
-              Try Demo
+              See It In Action
             </Link>
             <Link href="/contact" className="border-2 border-white/20 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white/10 transition-all">
               Schedule Demo
@@ -50,16 +50,16 @@ export default function Home() {
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-2">24/7</div>
-              <div className="text-gray-400">Availability</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-2">99%</div>
-              <div className="text-gray-400">Customer Capture</div>
-            </div>
-            <div className="text-center">
               <div className="text-3xl font-bold text-white mb-2">0</div>
-              <div className="text-gray-400">Missed Calls</div>
+              <div className="text-gray-400">Manual Bookings</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-white mb-2">100%</div>
+              <div className="text-gray-400">Calendar Sync</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-white mb-2">24/7</div>
+              <div className="text-gray-400">Auto-Booking</div>
             </div>
           </div>
         </div>
@@ -70,10 +70,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              How Chel-c Works
+              From Call to Calendar in Seconds
             </h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-              Our AI understands natural conversation and handles the entire booking process automatically
+              While other AI receptionists just take messages, Chel-c completes the entire booking process automatically
             </p>
           </div>
 
@@ -84,9 +84,9 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-white mb-4">Smart Understanding</h3>
+              <h3 className="text-2xl font-bold text-white mb-4">Understands & Extracts</h3>
               <p className="text-gray-300 leading-relaxed">
-                Chel-c listens to customer requests and extracts key information like service type, preferred dates, and contact details.
+                Listens to customer requests and automatically extracts service type, preferred dates, and contact information.
               </p>
             </div>
 
@@ -96,9 +96,9 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-white mb-4">Real-time Availability</h3>
+              <h3 className="text-2xl font-bold text-white mb-4">Finds Available Slots</h3>
               <p className="text-gray-300 leading-relaxed">
-                Instantly checks your calendar for available slots and suggests the best times to customers.
+                Instantly scans your calendar for open appointments and suggests the best available times to customers.
               </p>
             </div>
 
@@ -108,9 +108,9 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-white mb-4">Automatic Booking</h3>
+              <h3 className="text-2xl font-bold text-white mb-4">Books Automatically</h3>
               <p className="text-gray-300 leading-relaxed">
-                Confirms appointments and sends confirmation details to customers without any manual work from you.
+                Confirms the appointment and adds it directly to your calendar—no copy-pasting or manual entry required.
               </p>
             </div>
           </div>
@@ -122,59 +122,57 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Perfect For Your Business
+              The Difference: Complete Automation
             </h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-              Whether you're cutting hair, providing medical care, or running a spa, Chel-c handles your calls professionally
+              Other AI receptionists leave you with messages to process. Chel-c leaves you with confirmed appointments in your calendar.
             </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-3xl font-bold text-white mb-6">The Hair Salon Problem</h3>
+              <h3 className="text-3xl font-bold text-white mb-6">Before Chel-c: The Manual Process</h3>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                Your stylist is busy with clients, the phone keeps ringing, and you're losing potential customers. Chel-c answers every call, understands what they want, and books them in automatically.
+                Customer calls → You answer → Write down details → Check calendar → Call back → Confirm → Manually enter in calendar → Send confirmation
               </p>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                  <span className="text-gray-300">Never miss a booking opportunity</span>
+                  <div className="w-2 h-2 bg-red-400 rounded-full"></div>
+                  <span className="text-gray-300">Multiple phone calls back and forth</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                  <span className="text-gray-300">Professional customer service 24/7</span>
+                  <div className="w-2 h-2 bg-red-400 rounded-full"></div>
+                  <span className="text-gray-300">Manual calendar entry takes time</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                  <span className="text-gray-300">Seamless calendar integration</span>
+                  <div className="w-2 h-2 bg-red-400 rounded-full"></div>
+                  <span className="text-gray-300">Risk of double-booking or errors</span>
                 </div>
               </div>
             </div>
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
               <div className="text-center">
-                <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                  </svg>
-                </div>
-                <h4 className="text-xl font-semibold text-white mb-4">Customer Call Flow</h4>
-                <div className="space-y-3 text-left">
+                <h4 className="text-2xl font-bold text-white mb-6">With Chel-c: One Call, Done</h4>
+                <div className="space-y-4 text-left">
                   <div className="flex items-center space-x-3">
                     <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-xs text-white">1</div>
                     <span className="text-gray-300">Customer calls for appointment</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-6 h-6 bg-purple-500 rounded-full flex items-center justify-center text-xs text-white">2</div>
-                    <span className="text-gray-300">Chel-c answers and understands request</span>
+                    <span className="text-gray-300">Chel-c understands and finds availability</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-xs text-white">3</div>
-                    <span className="text-gray-300">Checks availability and books slot</span>
+                    <span className="text-gray-300">Books directly into your calendar</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-6 h-6 bg-yellow-500 rounded-full flex items-center justify-center text-xs text-white">4</div>
                     <span className="text-gray-300">Sends confirmation to customer</span>
                   </div>
+                </div>
+                <div className="mt-6 p-4 bg-green-500/20 rounded-lg border border-green-500/30">
+                  <p className="text-green-400 font-semibold">Result: Appointment is already in your calendar!</p>
                 </div>
               </div>
             </div>
@@ -186,17 +184,17 @@ export default function Home() {
       <section className="px-6 py-20">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Ready to Never Miss a Customer Again?
+            Stop Manually Booking Appointments
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Join hundreds of businesses already using Chel-c to capture every opportunity
+            Let Chel-c handle the entire booking process while you focus on your customers
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/demo" className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-10 py-4 rounded-xl font-semibold text-lg hover:from-blue-600 hover:to-purple-700 transition-all transform hover:scale-105">
-              Start Free Trial
+              See Auto-Booking Demo
             </Link>
             <Link href="/contact" className="border-2 border-white/20 text-white px-10 py-4 rounded-xl font-semibold text-lg hover:bg-white/10 transition-all">
-              Talk to Sales
+              Get Started Today
             </Link>
           </div>
         </div>
@@ -212,7 +210,7 @@ export default function Home() {
             <span className="text-xl font-bold text-white">Chel-c</span>
           </div>
           <p className="text-gray-400 mb-6">
-            AI-powered receptionist that never misses a customer call
+            The only AI receptionist that automatically books appointments into your calendar
           </p>
           <div className="flex justify-center space-x-6 text-sm text-gray-400">
             <a href="#" className="hover:text-white transition-colors">Privacy</a>
