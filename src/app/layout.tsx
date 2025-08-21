@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Chel-c AI - Automated Booking Assistant",
+  title: "ChelC AI - Automated Booking Assistant",
   description: "AI-powered receptionist that handles appointment bookings automatically when human staff are unavailable. Never miss a customer again.",
 };
 

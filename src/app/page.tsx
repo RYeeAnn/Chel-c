@@ -10,7 +10,7 @@ export default function Home() {
             <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl flex items-center justify-center">
               <span className="text-white font-bold text-xl">C</span>
             </div>
-            <span className="text-2xl font-bold text-white">Chel-c</span>
+            <span className="text-2xl font-bold text-white">ChelC</span>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#features" className="text-gray-300 hover:text-white transition-colors">Features</a>
@@ -34,7 +34,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Chel-c doesn't just answer calls—it automatically books appointments directly into your calendar. No more manual entry, no more missed bookings.
+              ChelC doesn't just answer calls—it automatically books appointments directly into your calendar. No more manual entry, no more missed bookings.
             </p>
           </div>
           
@@ -73,7 +73,7 @@ export default function Home() {
               From Call to Calendar in Seconds
             </h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-              While other AI receptionists just take messages, Chel-c completes the entire booking process automatically
+              While other AI receptionists just take messages, ChelC completes the entire booking process automatically
             </p>
           </div>
 
@@ -125,13 +125,13 @@ export default function Home() {
               The Difference: Complete Automation
             </h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-              Other AI receptionists leave you with messages to process. Chel-c leaves you with confirmed appointments in your calendar.
+              Other AI receptionists leave you with messages to process. ChelC leaves you with confirmed appointments in your calendar.
             </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-3xl font-bold text-white mb-6">Before Chel-c: The Manual Process</h3>
+              <h3 className="text-3xl font-bold text-white mb-6">Before ChelC: The Manual Process</h3>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
                 Customer calls → You answer → Write down details → Check calendar → Call back → Confirm → Manually enter in calendar → Send confirmation
               </p>
@@ -152,7 +152,7 @@ export default function Home() {
             </div>
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
               <div className="text-center">
-                <h4 className="text-2xl font-bold text-white mb-6">With Chel-c: One Call, Done</h4>
+                <h4 className="text-2xl font-bold text-white mb-6">With ChelC: One Call, Done</h4>
                 <div className="space-y-4 text-left">
                   <div className="flex items-center space-x-3">
                     <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-xs text-white">1</div>
@@ -160,7 +160,7 @@ export default function Home() {
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-6 h-6 bg-purple-500 rounded-full flex items-center justify-center text-xs text-white">2</div>
-                    <span className="text-gray-300">Chel-c understands and finds availability</span>
+                    <span className="text-gray-300">ChelC understands and finds availability</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-xs text-white">3</div>
@@ -187,7 +187,7 @@ export default function Home() {
             Stop Manually Booking Appointments
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Let Chel-c handle the entire booking process while you focus on your customers
+            Let ChelC handle the entire booking process while you focus on your customers
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/demo" className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-10 py-4 rounded-xl font-semibold text-lg hover:from-blue-600 hover:to-purple-700 transition-all transform hover:scale-105">
@@ -207,7 +207,7 @@ export default function Home() {
             <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-sm">C</span>
             </div>
-            <span className="text-xl font-bold text-white">Chel-c</span>
+            <span className="text-xl font-bold text-white">ChelC</span>
           </div>
           <p className="text-gray-400 mb-6">
             The only AI receptionist that automatically books appointments into your calendar
